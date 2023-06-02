@@ -1,0 +1,173 @@
+.container{
+    margin: 20px;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#navigation{
+    background-color: black;
+    color: aliceblue;
+    height: 100px;
+
+    
+}
+.h1{
+    position: relative;
+  top: 40px;
+}
+#navigation li{
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    padding-left: 30px;
+    margin-left: 100px;
+
+}
+
+.get{
+    color: yellow;
+}
+.sign{
+    margin-right: 10%;
+    background-color: yellow;
+    width: 10%;
+    height: 40px;
+    border: none;
+    float: right;
+}
+#place{
+    height: 40%;
+    margin: 30px 0;
+}
+#place input{
+    height: 40px;
+    border: solid 1px;
+
+}
+#search{
+    width: 50%;
+}
+.gadgets{
+    display: flex;
+    background-color: blueviolet;
+    padding-left: 50px;
+}
+
+#order{
+    width: 20%;
+    height: 50px;
+    background-color: yellow;
+    border: none;
+    margin-top: 60px;
+}
+#explore{
+    width: 20%;
+    height: 50px;
+    border: solid whitesmoke 1px;
+    color: aliceblue;
+    background: transparent;
+
+}
+.mob{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+/* #store{
+    background-color: rgb(77, 59, 59);
+    color: antiquewhite;
+} */
+.mob img{
+    width: 60%;
+    height: 80%;
+}
+#products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+   
+}
+#products div{
+    border: solid rgb(214, 182, 187);
+}
+#products button{
+    width: 35%;
+    height: 10%;
+    background-color: yellow;
+    border: none;
+}
+#products img{
+    width: 100%;
+}
+#images{
+    margin-top: 50px;
+    gap: 30px;
+    display: flex;
+}
+.top{
+    width: 50%;
+}
+#next{
+    gap: 60px;
+    padding: 6% 0;
+    margin: 30px 0;
+    display: flex;
+    background-color: blueviolet;
+}
+#view{
+    float: right;
+}
+#offer{
+    background-color: black;
+    color: antiquewhite;
+}
+#next img{
+    width: 200%;
+    height: 100%;
+}
+#level{
+    width: 40%;
+}
+#level h3{
+    font-size: 50px;
+}
+#testi{
+    margin: 50px  35%;
+}
+#testi h2{
+    font-size: 40px;
+
+}
+#test{
+    display: flex;
+    gap: 100px;
+    margin: 100px;
+}
+.test{
+    background-color: rgb(230, 216, 243);
+    border-radius: 10px;
+}
+#sub{
+    display: flex;
+    gap: 250px;
+    background-color: rgb(240, 232, 222);
+    padding: 8% 0;
+}
+#sub input{
+    width: 20%;
+    background-color: yellow;
+    border: none;
+}
+.gad{
+    color: yellow;
+}
+#footer{
+    display: flex;
+    gap: 130px;
+    background-color: black;
+    color: aliceblue;
+    padding-left: 20px;
+
+}

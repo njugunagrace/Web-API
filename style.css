@@ -49,7 +49,7 @@
 }
 .gadgets{
     display: flex;
-    background-color: blueviolet;
+    background-color: rgb(202, 179, 224);
     padding-left: 50px;
 }
 
@@ -101,6 +101,14 @@
 #products img{
     width: 100%;
 }
+.prods{
+    border: solid rgb(208, 223, 208);
+    margin-bottom: 3%;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+    padding-bottom: 4%;
+}
 #images{
     margin-top: 50px;
     gap: 30px;
@@ -114,7 +122,7 @@
     padding: 6% 0;
     margin: 30px 0;
     display: flex;
-    background-color: blueviolet;
+    background-color: rgb(187, 166, 207);
 }
 #view{
     float: right;
@@ -170,4 +178,100 @@
     color: aliceblue;
     padding-left: 20px;
 
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        margin: 10px;
+    }
+    #navigation h1{
+        top: 17px;
+    }
+
+    #navigation li {
+        margin-left: 0;
+        /* padding-left: 10px; */
+    }
+
+    .sign {
+        margin-right: 5%;
+        width: 20%;
+        margin-bottom: 50px;
+    }
+    .gadgets{
+        display: flex;
+    }
+  
+
+    #search {
+        width: 70%;
+        margin-top:15px ;
+    }
+
+    #order {
+        width: 50%;
+
+    }
+    #explore{
+        width: 50%;
+        margin-top: 10px;
+    }
+    .mob{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mob img {
+        width: 100%;
+        height: auto;
+    }
+
+    #products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #level h3{
+        font-size: 20px;
+    }
+    #products button{
+        width: 40%;
+        height: 15%;
+    }
+
+    #next img {
+        width: 80%;
+        height: auto;
+    }
+
+    #level {
+        width: 80%;
+    }
+
+    #testi {
+        margin: 50px 10%;
+    }
+
+    #test {
+        flex-direction: column;
+        margin: 50px 20px;
+        gap: 50px;
+    }
+
+    #sub {
+        flex-direction: column;
+        gap: 20px;
+        padding: 4% 0;
+    }
+
+    #sub input {
+        width: 100%;
+    }
+
+    #footer {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-left: 10px;
+        align-items: center;
+    }
 }
